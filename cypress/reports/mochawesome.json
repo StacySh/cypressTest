@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-05T21:16:44.554Z",
-    "end": "2021-10-05T21:16:49.094Z",
-    "duration": 4540,
+    "start": "2021-10-05T22:10:29.268Z",
+    "end": "2021-10-05T22:10:33.409Z",
+    "duration": 4141,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8dbeb606-927b-4606-9655-54078b46b67a",
+      "uuid": "566f6a06-d4e9-40ac-94ac-932369d11881",
       "title": "",
       "fullFile": "cypress/integration/Qa/test.js",
       "file": "cypress/integration/Qa/test.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2d3d6055-5fb8-4c7b-be8b-f6e2f0a51bc7",
+          "uuid": "196efd2d-9343-4e59-bc81-8f0e90a2a97e",
           "title": "Test Of Pecode Soft Ware",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Assert Test",
               "fullTitle": "Test Of Pecode Soft Ware Assert Test",
               "timedOut": null,
-              "duration": 2217,
+              "duration": 1878,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(Cypress.env('url'));\nlogin.username().type(Cypress.env('username')).should('be.visible');\nlogin.password().type(Cypress.env('password')).should('be.visible');\nlogin.btnLogin().click().should('be.visible').end();\ncy.contains('No account found with that username.').should('be.visible');",
               "err": {},
-              "uuid": "c498247c-6289-40bc-abcd-de4b13a3da52",
-              "parentUUID": "2d3d6055-5fb8-4c7b-be8b-f6e2f0a51bc7",
+              "uuid": "5a5c6268-aa84-46d0-afc8-75001a8a756f",
+              "parentUUID": "196efd2d-9343-4e59-bc81-8f0e90a2a97e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c498247c-6289-40bc-abcd-de4b13a3da52"
+            "5a5c6268-aa84-46d0-afc8-75001a8a756f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2217,
+          "duration": 1878,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
