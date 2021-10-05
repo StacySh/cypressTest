@@ -1,0 +1,19 @@
+{
+    "env": {
+        "url": "https://www.pecodesoftware.com/qa-portal/greet.php",
+        "username": "someUser",
+        "password": "123456"
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports",
+            "charts": true,
+            "reportPageTitle": "My Test Suite",
+            "embeddedScreenshots": true,
+            "inlineAssets": true
+        }
+    },
+    "video": false
+}

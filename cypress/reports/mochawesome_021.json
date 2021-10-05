@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-05T20:21:22.094Z",
+    "end": "2021-10-05T20:21:26.229Z",
+    "duration": 4135,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "716d1c45-7805-4768-b83f-7d5f6246219e",
+      "title": "",
+      "fullFile": "cypress/integration/Qa/test.js",
+      "file": "cypress/integration/Qa/test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6c5d270d-b3d8-4e23-a4d6-4ee2bc7cf2a5",
+          "title": "Test Of Pecode Soft Ware",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Assert Test",
+              "fullTitle": "Test Of Pecode Soft Ware Assert Test",
+              "timedOut": null,
+              "duration": 1816,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(Cypress.env('url'));\nlogin.username().type(Cypress.env('username')).should('be.visible');\nlogin.password().type(Cypress.env('password')).should('be.visible');\nlogin.btnLogin().click().should('be.visible');\ncy.contains('No account found with that username.').should('be.visible');",
+              "err": {},
+              "uuid": "de8a05d5-477d-4232-b9df-67167e29003f",
+              "parentUUID": "6c5d270d-b3d8-4e23-a4d6-4ee2bc7cf2a5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "de8a05d5-477d-4232-b9df-67167e29003f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1816,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
